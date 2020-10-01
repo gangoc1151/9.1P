@@ -1,8 +1,7 @@
 import React from "react";
 
 import Card from "./Card";
-import cardlist from "./cardlist";
-
+import stafflist from "./stafflist";
 function cardcomponent(staff, i) {
   return (
     <div className="cardlist">
@@ -20,7 +19,7 @@ function cardcomponent(staff, i) {
 function CardList() {
   return (
     <div>
-      <div>{cardlist.map(cardcomponent)}</div>
+      <div>{stafflist.map(cardcomponent)}</div>
     </div>
   );
 }
